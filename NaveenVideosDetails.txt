@@ -158,3 +158,6 @@ super keyworkd is used to call the constractor of parent class
 HashMap
 
 For each loop is used in case of arry list
+================================================================================================
+Selenium sessions 
+Selenium Class #1
