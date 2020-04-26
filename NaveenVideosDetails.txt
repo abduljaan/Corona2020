@@ -1,0 +1,160 @@
+Naveen videos detalis          SBA pw Citykabob2usa
+firs part   All Java Videos
+second part All Pom videos
+third parat  All selenium videos
+======================================================================
+need to know
+this keywork
+global variable and class variable
+static non static veriable/method
+construtor overloading 
+incapsolation, getter and setter
+parent class/supper class child classs/sub class
+top casting down casting
+interface in java
+Abstract method
+rapper class
+Frame Handling
+Collection
+==========================================================================
+
+Java class #7
+Method overloading, Static none static class objects, Heap memory, Garbage collector
+
+
+Java Class #8
+constructor, constructor with or without parameters,
+if we dont create constructor JVM creates a hidden constructor by default 
+when ever we create an object the construtor of that particular class will be called
+this.class variable = local variable 
+
+
+Java Class #9 
+
+incapsolation means we declared some variable private in nature and access them with the help of public methods
+// to create getter and setter methos righ click on sourc and select generate getter setter method
+class objects
+
+when a parent class and a child class have seprate seprate methods with same name same parameter is called method overriding 
+it comes in to the picture at the time to inharitance
+
+method overloding>> with in the same class we create different methods with same name but perametter and numbers are different
+
+method orverloading and method overriding are the concipt of polymarphysenm 
+poly means many and marhpsm means forms
+
+polymorphism = method overloading+methodoverriding
+method overloading is called compile time polymorphism
+method overriding is  called run time polymorpism
+
+JAVA CLASS #10
+Interface in java
+ we cannot create the object ot interface
+ interface has no method body---- only method decleration
+ no static methods are allowed in interface
+ interface variables are static and final by default
+ interface to interface we use "extends" keywork
+after JDK 1.8 we can create method body in interface by using default keywork "default"
+over riding is possiable with static method but over 
+
+a class cannot have multipul perents in java but with the help of interface we can have multipal parents
+multipul inharetence with class to class is not allowed in java with class to interface
+interface is used to define methods which dont have method body 
+we only delare methods in interface mehods shold not have body
+
+we use "implements" keyword inorder to create parent child relationship bw child class and perent interface
+we define methods in interface and then copy same methods and define full methods in child class this is
+also called full over ride
+
+Method in Interface  >>>>> public void test(); only declare method 
+Method in class >>>>>>>>>>>public void test(){
+system.prilbtxxx();
+}
+
+we use , if we have multipul interfaces 
+public class PakHospital implements USinterface,UKInterface  
+webdriver is an interface in selenium
+ as we know object of an iterface cannot be create 
+  WebDriver driver = new WebDriver();  <<<<not correct>>>>>
+  WebDriver driver = new ChromeDriver();<<<<<correct way >>>>>>>>>
+======================================================================================
+JAVA CLASS #11 String manipulation
+
+String is a collection of characters
+Trim method/function is used to cut string from the corners
+//Trim method
+       String s1 = "    hellow abdul     ";
+       System.out.println(s1.trim());
+
+
+remove space bw string we use .replace method
+  
+       String s2= "Hellow  Worldd";
+       System.out.println(s2.replace(" ",""));
+
+Sub string == trim from ay given place of a string 
+
+       String str1 = "your user id is abduljan";
+       System.out.println(str1.substring(9,str.length()))
+
+String comperasion
+ String str11 = " The rain has started here";
+       String str12 = " The rain has started here";
+       System.out.println(str11.equals(str12));
+
+equal to equal to === generaly we use for integers
+
+SPLIT FUNCTION
+  String lang = "java - python-donet=ruby";
+             lang.split("_");  
+      String lolo[] = lang.split("-");
+       System.out.println(lolo[1]);
+  system will pring second valude which is "python". 
+
+to print all values
+for(int i=0; i<lang.length();i++) {
+    	   System.out.println(lolo[i]);
+
+Immutable objects 
+
+string buffer is muttale but String is not mutable 
+
+	String slm="Selenium";//muineleS
+		   int lng = slm.length();
+		   
+		   String rev="";
+		   
+		for(int k=lng-1;k>=0;k--) {
+			
+			rev=rev+slm.charAt(k);
+				
+		}
+				
+		System.out.println("mutable :"+rev);
+===================================================================================]
+CLASS VIDEO #12 EXCEPTION HANDLING 
+try {
+			int i =9/0;	
+			
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+exception is the problem within your code
+error means problem with the syntex
+exception only be caught by exception and error only b caught by error 
+Exception is a class
+Throwable is a class
+Error is a class ( Throwable is the supper class of Exception and Error	
+
+Throws keyword is for method channing purpose. when you have to pass exception from one 
+method to another one
+Throw keyword we use when we delberatly want exception
+Try cach is used for excepton handling  with proper reporting
+
+This keyword. we use this keyword inorder to initilize class variables with the help 
+on constractor variables 
+
+super keyworkd is used to call the constractor of parent class
+HashMap
+
+For each loop is used in case of arry list
