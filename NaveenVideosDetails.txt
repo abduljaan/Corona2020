@@ -16,6 +16,7 @@ Abstract method
 rapper class
 Frame Handling
 Collection
+up casting, top casting why down casting is not allowed
 ==========================================================================
 
 Java class #7
@@ -161,3 +162,45 @@ For each loop is used in case of arry list
 ================================================================================================
 Selenium sessions 
 Selenium Class #1
+
+Maven is a build tool which automatically genertes dependency for selenium 
+maven is a dependency management tool
+jar files/ liberaries are bundled togater and availabe at maven centeralized repository
+
+WebDriver is an interface where different methods only defined we create driver classes 
+and implemetns those methods
+we cannot create an object of interface
+we can create only reference object 
+ChromeDriver is the child of WebDriver interface
+
+Selenium Class #2
+Navigation concept
+Navigate has more features then get... like>>>>>>>>>> navigate.back/navigate.forward/refresh
+Get method waits for the page to be loaded but Navigate method doesnot wait for page to be load 
+driver.manage.window.fullscreen >>>>>> to fit to your screen
+webdriver methods
+
+ check debugger at 46min of video
+driver.close and driver.quit >>>>>>>.check respectie screenshot
+quit means close all open windows/sessions
+close mean close only current window
+
+could not test debuger propertly. try again
+
+
+
+Selenium Class #3
+WebElements/webobjects/page objects / web components(button,link,image,etc
+system.setproperty (chromedriver.exe) is provided by google 
+
+
+There are 8 locators
+ 1.id 2 name 3 clasname 4 linktaxt 5 partial linktext  6.xpath 7.css selector  
+HTML DOM is 
+<input is HTML tag
+id is webelemnt attribute 
+WebElement is an interface
+xpath (extended path) is not an attribute/property,  Xpath is 
+address of that element 
+HTML is used to design websies. its for web development 
+all the links are represented by a tag (ankar tag)
