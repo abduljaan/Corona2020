@@ -9,14 +9,17 @@ global variable and class variable
 static non static veriable/method
 construtor overloading 
 incapsolation, getter and setter
-parent class/supper class child classs/sub class
+parent class/supper class child classs/sub class 
 top casting down casting
 interface in java
 Abstract method
-rapper class
+rapper class ==========internaly you are using selenium code but on top of that you create your own custom method
 Frame Handling
 Collection
 up casting, top casting why down casting is not allowed
+Arry list
+clander dropdonw testing
+xpath details 
 ==========================================================================
 
 Java class #7
@@ -28,6 +31,8 @@ constructor, constructor with or without parameters,
 if we dont create constructor JVM creates a hidden constructor by default 
 when ever we create an object the construtor of that particular class will be called
 this.class variable = local variable 
+
+
 
 
 Java Class #9 
@@ -188,11 +193,10 @@ close mean close only current window
 could not test debuger propertly. try again
 
 
-
+=====================================================================
 Selenium Class #3
 WebElements/webobjects/page objects / web components(button,link,image,etc
 system.setproperty (chromedriver.exe) is provided by google 
-
 
 There are 8 locators
  1.id 2 name 3 clasname 4 linktaxt 5 partial linktext  6.xpath 7.css selector  
@@ -205,4 +209,104 @@ address of that element
 HTML is used to design websies. its for web development 
 all the links are represented by a tag (ankar tag)
 
-good job abdul
+==================================================================
+Selenium Class #4
+Select tag should be there 
+whenever we create select class object we have to pass Web Element of that
+particular dropdown like
+      WebElement month = driver.findelement(By.id("month")))
+      Select slect = new Select(month);
+      slect.selectyby.....
+
+need to pratice alot on this class
+
+=============================================================
+
+Selenium Class #5  (missing vido but is about action class)
+
+Actions Class
+http://mrbool.com/ 
+with actions class we have to use .build().perform(); at the end
+
+drag n drop is only for webelements  
+https://jqueryui.com/
+frame is a small section of a page where other elements are present 
+w3c standered dont recomend frames 
+======================================================================
+Selenium Class #6
+
+(java script alert, browser popups)
+Windo PoP or model dialouge up handler
+Alert is an intface we need to switch  to alert dailog box
+driver.swithcTo().alert();
+we can create alert reference 
+
+file upload error pop up
+https://cgi-lib.berkeley.edu/ex/fup.html
+WebElement fileupload=driver.findElement
+type = file should be there in order to select file from window
+if type=file attribute is not there in HTML DOM THEN sendkyes method will not work
+
+authentication popup
+http://the-internet.herokuapp.com/basic_auth
+we have to pass username and password in url lik
+http://admin:admin@the-internet.herokuapp.com/basic_auth
+
+Browser Window pop up
+http://www.popuptest.com/goodpopups.html
+we need window id inorder to switch from one window to another window 
+to get window id we have one method called getwindowhandeles();
+this getwindowhandles method returns set object
+set is coming from java not from selenium
+set values must be uniques not like list where values can be unieque
+we will use iterator to get orderless value
+===============================================================
+SELENIUM CLASS #7 need to do it again 
+clander drowpdowns
+tr in xml dom means rows
+driver.findelements will return a list of webelements
+
+==================================================================
+SELENIUM CLASS #8
+Element verification 
+for webelements we have 3 methods
+isenabled
+isselected
+is displayed
+ 
+for checkbox we have only one method
+is selected
+WebDriverManger developed by bonigarica 
+
+Headless testing
+// no browser is getting launched 
+	// testing happens behind the scene
+	//executon is faster
+	
+We need to use a class
+ChromeOptions cmop = new ChromeOptions();
+
+PhantomJS scriptable Headless Browesr 
+htmlunit driver maven is also for headless broswer testing 
+
+ChromeOptions co = new ChromeOptions();
+		
+			co.addArguments("--start-maximized");
+			co.addArguments("--ignore-certificate-error");
+		    co.addArguments("--disable-pupup-blocking");
+		    co.addArguments("--incognito");
+====================================================================
+SELENIUM CLASS #9
+hashmap in selenium
+www.londonfreelance.org
+frame method is overloaded
+to move to frame we use
+driver.swithcto().frame();
+returning from frame to page we use
+driver.swithcto().defaultcontent();
+===================================================================
+
+SELENIUM CLASS #10 
+CONFIG. PROPERTIES
+is kind of globle veriable 
+in properties we put # for comments
